@@ -1,0 +1,32 @@
+*{
+margin:0;
+padding:0;
+font-family:sans serif;
+}
+section{
+position:none;
+width:10px;
+height:10px;
+
+}
+section.image{
+position: none;
+width:10px;
+height:0px;
+}
+section.image:before{
+top:0;
+left:0;
+width:10px;
+height:0px;
+background:linear gradient(100deg,#e91e63,#03a9f4);
+position:none;
+}
+section.image img{
+position:none;
+top:0;
+left:0;
+width:10px;
+height:0px;
+
+}
